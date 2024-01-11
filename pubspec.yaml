@@ -1,0 +1,48 @@
+name: matz
+description: simple but hard
+
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.2.0-210.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  math_expressions: ^2.4.0
+  lottie: ^2.7.0
+  url_launcher: ^6.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lotties/
+    - assets/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+
